@@ -13,7 +13,14 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
   }
-
-
+  
+  @IBAction func actionShowEmployeeData(_ sender: UIButton) {
+    if let employeeListVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "EmployeeList") as? EmployeeListViewController {
+      let viewModel = EmployeeListViewModel()
+      employeeListVC.employeeListViewModel = viewModel
+      self.navigationController?.pushViewController(employeeListVC, animated: true)
+    }
+  }
+  
 }
 

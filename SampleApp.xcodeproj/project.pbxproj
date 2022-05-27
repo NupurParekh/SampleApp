@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A807056D283FB3B600E60E2D /* EmployeeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807056C283FB3B600E60E2D /* EmployeeTableCell.swift */; };
+		A807056F283FB46700E60E2D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A807056E283FB46700E60E2D /* ApiManager.swift */; };
+		A8070571283FB6DD00E60E2D /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8070570283FB6DD00E60E2D /* EmployeeListViewController.swift */; };
+		A8070573283FBD9D00E60E2D /* EmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8070572283FBD9D00E60E2D /* EmployeeData.swift */; };
+		A8070575283FC96200E60E2D /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8070574283FC96200E60E2D /* EmployeeDetailsViewController.swift */; };
+		A8070577283FD0B400E60E2D /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8070576283FD0B400E60E2D /* EmployeeListViewModel.swift */; };
 		A8146F98283E8EEE0093C0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8146F97283E8EEE0093C0E2 /* AppDelegate.swift */; };
 		A8146F9A283E8EEE0093C0E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8146F99283E8EEE0093C0E2 /* SceneDelegate.swift */; };
 		A8146F9C283E8EEE0093C0E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8146F9B283E8EEE0093C0E2 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A807056C283FB3B600E60E2D /* EmployeeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableCell.swift; sourceTree = "<group>"; };
+		A807056E283FB46700E60E2D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A8070570283FB6DD00E60E2D /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		A8070572283FBD9D00E60E2D /* EmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeData.swift; sourceTree = "<group>"; };
+		A8070574283FC96200E60E2D /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
+		A8070576283FD0B400E60E2D /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
 		A8146F94283E8EEE0093C0E2 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8146F97283E8EEE0093C0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8146F99283E8EEE0093C0E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8070578283FD2A100E60E2D /* EmployeeList */ = {
+			isa = PBXGroup;
+			children = (
+				A8070570283FB6DD00E60E2D /* EmployeeListViewController.swift */,
+				A8070576283FD0B400E60E2D /* EmployeeListViewModel.swift */,
+				A807056C283FB3B600E60E2D /* EmployeeTableCell.swift */,
+			);
+			path = EmployeeList;
+			sourceTree = "<group>";
+		};
 		A8146F8B283E8EEE0093C0E2 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +81,10 @@
 				A8146F97283E8EEE0093C0E2 /* AppDelegate.swift */,
 				A8146F99283E8EEE0093C0E2 /* SceneDelegate.swift */,
 				A8146F9B283E8EEE0093C0E2 /* ViewController.swift */,
+				A8070578283FD2A100E60E2D /* EmployeeList */,
+				A8070574283FC96200E60E2D /* EmployeeDetailsViewController.swift */,
+				A807056E283FB46700E60E2D /* ApiManager.swift */,
+				A8070572283FBD9D00E60E2D /* EmployeeData.swift */,
 				A8146F9D283E8EEE0093C0E2 /* Main.storyboard */,
 				A8146FA0283E8EF00093C0E2 /* Assets.xcassets */,
 				A8146FA2283E8EF00093C0E2 /* LaunchScreen.storyboard */,
@@ -140,6 +166,12 @@
 			files = (
 				A8146F9C283E8EEE0093C0E2 /* ViewController.swift in Sources */,
 				A8146F98283E8EEE0093C0E2 /* AppDelegate.swift in Sources */,
+				A8070573283FBD9D00E60E2D /* EmployeeData.swift in Sources */,
+				A8070575283FC96200E60E2D /* EmployeeDetailsViewController.swift in Sources */,
+				A8070571283FB6DD00E60E2D /* EmployeeListViewController.swift in Sources */,
+				A807056F283FB46700E60E2D /* ApiManager.swift in Sources */,
+				A807056D283FB3B600E60E2D /* EmployeeTableCell.swift in Sources */,
+				A8070577283FD0B400E60E2D /* EmployeeListViewModel.swift in Sources */,
 				A8146F9A283E8EEE0093C0E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

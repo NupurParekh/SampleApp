@@ -12,11 +12,12 @@ class EmployeeListViewController: UIViewController {
   @IBOutlet weak var employeeTable: UITableView!
   @IBOutlet weak var loader: UIActivityIndicatorView!
   var employeeList = [EmployeeData]()
-  weak var employeeListViewModel: EmployeeListViewModel?
+  var employeeListViewModel: EmployeeListViewModel?
   
   override func viewDidLoad() {
     super.viewDidLoad()
     loader.startAnimating()
+    employeeListViewModel?.employeeListDelegate = self
     employeeListViewModel?.getEmployeeListData()
   }
   
